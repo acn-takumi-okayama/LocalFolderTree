@@ -44,7 +44,13 @@
       "icon": "build/icons/icon.icns"
     },
     "win": {
-      "icon": "build/icons/icon.ico"
+      "icon": "build/icons/icon.ico",
+      "target": {
+        "target": "zip",
+        "arch": [
+          "x64"
+        ]
+      }
     },
     "linux": {
       "icon": "build/icons"
