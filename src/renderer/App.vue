@@ -5,16 +5,16 @@
 </template>
 
 <script>
-  import LandingPage from '@/components/LandingPage'
+import LandingPage from "@/components/LandingPage";
 
-  export default {
-    name: 'local-folder-tree',
-    components: {
-      LandingPage
-    }
-  }
+export default {
+  name: "local-folder-tree",
+  components: {
+    LandingPage,
+  },
+};
 </script>
 
 <style>
-  /* CSS */
+/* CSS */
 </style>
